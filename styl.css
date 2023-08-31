@@ -54,10 +54,17 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-left: 50px;
-    padding-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    /* padding-left: 50px; */
+    /* padding-top: 70px; */
 }
 
-.img-icon img {
+.icon-left img {
     transform: rotate(180deg);
+}
+.icon{
+    color: #fff;
 }
