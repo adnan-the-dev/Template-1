@@ -1,0 +1,63 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
+}
+
+.header {
+    height: 60px;
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.head-left {
+    color: #2998be;
+}
+
+.head-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.head-right li img {
+    height: 18px;
+    width: 18px;
+}
+
+.head-right li {
+    list-style: none;
+    color: #79acf3;
+}
+
+.head-right li input {
+    padding: 6px;
+    border: none;
+}
+
+.head-right li select {
+    padding: 6px;
+    border: none;
+    background: none;
+    color: #79acf3;
+}
+
+.head-right li select option {
+    color: black;
+}
+
+.img-section {
+    background-image: url("./Assetes/static.jpg");
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 50px;
+    padding-top: 70px;
+}
+
+.img-icon img {
+    transform: rotate(180deg);
+}
