@@ -15,6 +15,11 @@ body {
     justify-content: space-around;
 }
 
+.batman {
+    height: 40px;
+    width: 40px;
+}
+
 .head-left {
     color: #2998be;
 }
@@ -49,6 +54,11 @@ body {
 
 .head-right li select option {
     color: black;
+}
+
+#menu {
+    height: 30px;
+    width: 30px;
 }
 
 .img-section {
@@ -125,4 +135,51 @@ body {
     padding: 10px;
     border: none;
     color: #e3f3f7;
+}
+
+
+/* large screen  */
+@media (min-width: 940px) {
+    .batman {
+        display: none;
+    }
+
+    #menu {
+        display: none;
+    }
+
+}
+
+/* small screen */
+
+@media (max-width: 940px) {
+    .list ul {
+        display: none;
+    }
+
+    .twitter {
+        display: none;
+    }
+
+    .head-left h2 {
+        display: none;
+    }
+
+    .head-right li {
+        display: none;
+    }
+
+    .boxes {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footer {
+        text-align: center;
+        flex-direction: column;
+        gap: 10px;
+
+    }
+
+
 }
